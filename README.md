@@ -12,7 +12,12 @@
       
   <https://reactjs.org/docs/react-without-jsx.html>
   
-  # Install & Setup in code
+  # Install 
+  
+      $npm install --save react react-dom 
+  
+  
+  # Setup in code
   
       <script type="text/javascript" src="/path/to/react.js"></script> 
       <script type="text/javascript" src="/path/to/react-dom.js"></script> 
