@@ -115,6 +115,25 @@ React components that are pure functions of their props and do not require any i
  create mode 100644 qsreactapp/src/logo.svg
  create mode 100644 qsreactapp/src/serviceWorker.js
  create mode 100644 qsreactapp/src/setupTests.js
+ 
+# App Structure
+
+    qsreactapp ------| package.json
+           
+               ------| src | ------ App.js
+               
+                           | ------ index.js
+                           
+                           | ------ index.css
+                           
+                           | ------ image.svg
+                           
+               ------| public | ------ manifest.json
+               
+                              | ------ index.html
+                              
+                              | ------ favicon.ico
+
 
 
 
