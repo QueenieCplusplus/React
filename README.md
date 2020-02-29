@@ -52,3 +52,7 @@ So, it is advised to use stateless components more often, since they are side-ef
 The most basic type of react component is one without state!
 React components that are pure functions of their props and do not require any internal state management. These are said to be Stateless Functional Components because they are a function only of props, without having any state to keep track of.
 
+# Create React App
+
+    $npm install -g create-react-app
+
