@@ -20,6 +20,9 @@
       
       + react@16.13.0
       + react-dom@16.13.0
+      
+      $npm install babel
+      + babel@6.23.0
   
   
   # Setup in code
