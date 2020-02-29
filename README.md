@@ -15,6 +15,9 @@
   # Install 
   
       $npm install --save react react-dom 
+      
+      + react@16.13.0
+      + react-dom@16.13.0
   
   
   # Setup in code
