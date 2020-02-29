@@ -55,6 +55,7 @@ React components that are pure functions of their props and do not require any i
 # Create React App
 
     $npm install -g create-react-app
+    + create-react-app@3.4.0
     
 > after cd to working dir, then
 
