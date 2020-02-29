@@ -122,7 +122,7 @@ React components that are pure functions of their props and do not require any i
            
                ------| src | ------ App.js
                
-                           | ------ index.js
+                           | ------ index.js (code)
                            
                            | ------ index.css
                            
@@ -130,7 +130,7 @@ React components that are pure functions of their props and do not require any i
                            
                ------| public | ------ manifest.json
                
-                              | ------ index.html
+                              | ------ index.html (render)
                               
                               | ------ favicon.ico
 
