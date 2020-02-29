@@ -118,9 +118,9 @@ React components that are pure functions of their props and do not require any i
  
 # App Structure
 
-    qsreactapp ------| package.json
+    qsreactapp ------| package.json (dependency mgmt)
            
-               ------| src | ------ App.js
+               ------| src | ------ App.js (app wrapper)
                
                            | ------ index.js (code)
                            
