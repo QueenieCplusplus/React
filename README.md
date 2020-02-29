@@ -14,6 +14,8 @@
   
   # Install 
   
+  > npm
+  
       $npm install --save react react-dom 
       
       + react@16.13.0
@@ -22,11 +24,13 @@
   
   # Setup in code
   
+  > JS
+  
       <script type="text/javascript" src="/path/to/react.js"></script> 
       <script type="text/javascript" src="/path/to/react-dom.js"></script> 
       <script type="text/javascript">
       
-  > JSX
+  > JSX with Babel
   
       <script type="text/javascript" src="/path/to/react.js"></script>
       <script type="text/javascript" src="/path/to/react-dom.js"></script> 
