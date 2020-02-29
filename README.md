@@ -38,7 +38,7 @@
       <script type="text/babel">
       
 # Stateless is better than Stateful (causes side-effect)
-
+>
 stateless func is always will return the same values given to varivales.
 However, stateful function will not return the same values given even no param. This type of function's behaviour is also called as a side-effect. 
 
