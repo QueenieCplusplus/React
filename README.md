@@ -36,4 +36,16 @@
       <script type="text/javascript" src="/path/to/react-dom.js"></script> 
       <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script> 
       <script type="text/babel">
+      
+# Stateless is better than Stateful (causes side-effect)
+
+stateless func is always will return the same values given to varivales.
+However, stateful function will not return the same values given even no param. This type of function's behaviour is also called as a side-effect. 
+
+> Stateful makes maintanance difficult
+So, it is advised to use stateless components more often, since they are side-effect free and will create the same behaviour always. That is what you want to be after in your apps because fluctuating state is the worst case scenario for a maintainable program.
+
+> Sateless Components with its props provided by React
+The most basic type of react component is one without state!
+React components that are pure functions of their props and do not require any internal state management. These are said to be Stateless Functional Components because they are a function only of props, without having any state to keep track of.
 
