@@ -64,6 +64,11 @@ React components that are pure functions of their props and do not require any i
 > cd to my-app. then start it
 
     $npm start
-    + Installing react, react-dom, and react-scripts with cra-template...
+    Installing react, react-dom, and react-scripts with cra-template...
+    + react-dom@16.13.0
+    + react@16.13.0
+    + react-scripts@3.4.0
+    + cra-template@1.0.2
+
 
 
