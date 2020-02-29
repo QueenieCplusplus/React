@@ -17,3 +17,11 @@
       <script type="text/javascript" src="/path/to/react.js"></script> 
       <script type="text/javascript" src="/path/to/react-dom.js"></script> 
       <script type="text/javascript">
+      
+  > JSX
+  
+      <script type="text/javascript" src="/path/to/react.js"></script>
+      <script type="text/javascript" src="/path/to/react-dom.js"></script> 
+      <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script> 
+      <script type="text/babel">
+
