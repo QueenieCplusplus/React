@@ -94,6 +94,27 @@ React components that are pure functions of their props and do not require any i
 
     Removes this tool and copies build dependencies, configuration files
     and scripts into the app directory. If you do this, you can’t go back!
+    
+# App Files
+
+ create mode 100644 qsreactapp/.gitignore
+ create mode 100644 qsreactapp/README.md
+ create mode 100644 qsreactapp/package-lock.json
+ create mode 100644 qsreactapp/package.json
+ create mode 100644 qsreactapp/public/favicon.ico
+ create mode 100644 qsreactapp/public/index.html
+ create mode 100644 qsreactapp/public/logo192.png
+ create mode 100644 qsreactapp/public/logo512.png
+ create mode 100644 qsreactapp/public/manifest.json
+ create mode 100644 qsreactapp/public/robots.txt
+ create mode 100644 qsreactapp/src/App.css
+ create mode 100644 qsreactapp/src/App.js
+ create mode 100644 qsreactapp/src/App.test.js
+ create mode 100644 qsreactapp/src/index.css
+ create mode 100644 qsreactapp/src/index.js
+ create mode 100644 qsreactapp/src/logo.svg
+ create mode 100644 qsreactapp/src/serviceWorker.js
+ create mode 100644 qsreactapp/src/setupTests.js
 
 
 
