@@ -61,5 +61,7 @@ React components that are pure functions of their props and do not require any i
 
     $create-react-app my-app
     
-> cd to my-app. then code
+> cd to my-app. then start it
+
+    $npm start
 
