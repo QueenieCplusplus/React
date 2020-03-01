@@ -86,6 +86,14 @@ React components that are pure functions of their props and do not require any i
     
 ![start dev server](https://i.imgur.com/OXMkiOX.png)
 
+    ? Something is already running on port 3000. Probably:
+      qsreactapp (pid 3096)
+      in /Users/pintred/Desktop/qsreactapp
+
+    Would you like to run the app on another port instead? (Y/n) Y
+    Starts the development server.
+    Local:            http://localhost:3001
+    On Your Network:  http://192.168.100.24:3001
 
 *npm run build
 
