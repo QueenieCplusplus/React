@@ -275,7 +275,7 @@ React components that are pure functions of their props and do not require any i
       }
     }
 
-# Index.js
+# index.js
 
     import React from 'react';
     import ReactDOM from 'react-dom';
@@ -291,3 +291,35 @@ React components that are pure functions of their props and do not require any i
     // unregister() to register() below. Note this comes with some pitfalls.
     // Learn more about service workers: https://bit.ly/CRA-PWA
     serviceWorker.unregister();
+
+# index.html
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+      <head>
+
+        <meta charset="utf-8" />
+
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta
+          name="description"
+          content="Web site created using create-react-app"
+        />
+        <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+      </head>
+
+      <body>
+
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+
+        <div id="root"></div>
+
+      </body>
+
+    </html>
