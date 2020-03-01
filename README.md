@@ -151,7 +151,7 @@ React components that are pure functions of their props and do not require any i
                               
                               | ------ favicon.ico
 
-# Service Worker (js)
+# Service Worker (js) as Config file
 
     const isLocalhost = Boolean(
       window.location.hostname === 'localhost' ||
@@ -283,7 +283,7 @@ React components that are pure functions of their props and do not require any i
       }
     }
 
-# index.js
+# index.js as Router
 
     import React from 'react';
     import ReactDOM from 'react-dom';
@@ -300,7 +300,7 @@ React components that are pure functions of their props and do not require any i
     // Learn more about service workers: https://bit.ly/CRA-PWA
     serviceWorker.unregister();
     
-# App.js
+# App.js as SRC srcipt code for logic
 
     import React from 'react';
     import logo from './logo.svg';
@@ -330,7 +330,7 @@ React components that are pure functions of their props and do not require any i
     export default App;
 
 
-# index.html
+# index.html as render
 
     <!DOCTYPE html>
     <html lang="en">
