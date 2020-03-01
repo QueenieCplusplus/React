@@ -80,6 +80,8 @@ React components that are pure functions of their props and do not require any i
 *npm start
 
     Starts the development server.
+    Local:            http://localhost:3000
+    On Your Network:  http://192.168.100.24:3000
     
     
 ![start dev server](https://i.imgur.com/OXMkiOX.png)
@@ -100,24 +102,28 @@ React components that are pure functions of their props and do not require any i
     
 # App Files
 
- create mode 100644 qsreactapp/.gitignore
- create mode 100644 qsreactapp/README.md
- create mode 100644 qsreactapp/package-lock.json
- create mode 100644 qsreactapp/package.json
- create mode 100644 qsreactapp/public/favicon.ico
- create mode 100644 qsreactapp/public/index.html
- create mode 100644 qsreactapp/public/logo192.png
- create mode 100644 qsreactapp/public/logo512.png
- create mode 100644 qsreactapp/public/manifest.json
- create mode 100644 qsreactapp/public/robots.txt
- create mode 100644 qsreactapp/src/App.css
- create mode 100644 qsreactapp/src/App.js
- create mode 100644 qsreactapp/src/App.test.js
- create mode 100644 qsreactapp/src/index.css
- create mode 100644 qsreactapp/src/index.js
- create mode 100644 qsreactapp/src/logo.svg
- create mode 100644 qsreactapp/src/serviceWorker.js
- create mode 100644 qsreactapp/src/setupTests.js
+    qsreactapp/.gitignore
+ 
+              /README.md
+ 
+              /package-lock.json
+              /package.json
+
+              /public/favicon.ico
+                     /index.html
+                     /logo192.png
+                     /logo512.png
+                     /manifest.json
+                     /robots.txt
+                     
+              /src/App.css
+                  /App.js
+                  /App.test.js
+                  /index.css
+                  /index.js
+                  /logo.svg
+                  /serviceWorker.js
+                  /setupTests.js
  
 # App Structure
 
@@ -136,12 +142,4 @@ React components that are pure functions of their props and do not require any i
                               | ------ index.html (render)
                               
                               | ------ favicon.ico
-
-
-
-
-
-
-
-
 
