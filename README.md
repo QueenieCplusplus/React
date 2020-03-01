@@ -128,18 +128,20 @@ React components that are pure functions of their props and do not require any i
                   /App.js
                   /App.test.js
                   /index.css
-                  (-)/index.js. ---> move out to Top Level Root Dir
+                  /index.js. 
                   /logo.svg
                   /serviceWorker.js
                   /setupTests.js
                   
-           (+)/index.js
+           (+)/index.js 
  
 # App Structure
 
     qsreactapp ------| package.json (dependency mgmt)
     
                ------ Routes.js (New File Created by developer)
+               
+               ------ index.js (New File Created by developer)
            
                ------| src | ------ App.js (app wrapper)
                
@@ -311,8 +313,12 @@ React components that are pure functions of their props and do not require any i
         </Route>
     );
 
+# index.js as Entry Point to render Routers Component
+
+import { Router, browserHistory } from 'react-router';
+import Routes from './Routes';
     
-# index.js as Target Container (Entry Point -> see hereby)
+# src/index.js as Target Container for App
 
     import React from 'react';
     import ReactDOM from 'react-dom';
