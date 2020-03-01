@@ -313,7 +313,9 @@ React components that are pure functions of their props and do not require any i
         </Route>
     );
 
-# index.js as Entry Point to render Routers Component
+# index.js (new file) as Entry Point to render Routers Component
+
+> index.js in Root Dir
 
 import { Router, browserHistory } from 'react-router';
 import Routes from './Routes';
