@@ -289,6 +289,27 @@ React components that are pure functions of their props and do not require any i
 
 <https://github.com/QueenieCplusplus/React/blob/master/useful_syntax/router.pdf>
 
+> pkg
+
+    $npm install react-router
+    + react-router@5.1.2
+    
+> Routes.js in Root Dir
+
+    import React from 'react';
+    import { Route, IndexRoute } from 'react-router';
+    import App from './src/App';
+    import index from './src/index';
+    import queens from './src/queens';
+
+    export default(
+        <Route path="/" component={App}>
+          <IndexRoute component={index}/>
+          <Route path="/queen/20200301" component={queens}/>
+        </Route>
+    );
+
+    
 # index.js as Target Container (Entry Point -> see hereby)
 
     import React from 'react';
