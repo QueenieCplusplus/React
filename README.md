@@ -282,8 +282,12 @@ React components that are pure functions of their props and do not require any i
           });
       }
     }
+    
+# routes.js (new file), code way see
 
-# index.js as Router (Entry Point -> see hereby)
+
+
+# index.js as Target Container (Entry Point -> see hereby)
 
     import React from 'react';
     import ReactDOM from 'react-dom';
