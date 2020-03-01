@@ -128,10 +128,12 @@ React components that are pure functions of their props and do not require any i
                   /App.js
                   /App.test.js
                   /index.css
-                  /index.js
+                  (-)/index.js. ---> move out to Top Level Root Dir
                   /logo.svg
                   /serviceWorker.js
                   /setupTests.js
+                  
+           (+)/index.js
  
 # App Structure
 
