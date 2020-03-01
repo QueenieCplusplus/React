@@ -300,7 +300,7 @@ React components that are pure functions of their props and do not require any i
     // Learn more about service workers: https://bit.ly/CRA-PWA
     serviceWorker.unregister();
     
-# App.js as SRC srcipt code for logic
+# App.js as SRC srcipt code for logic (Container)
 
     import React from 'react';
     import logo from './logo.svg';
