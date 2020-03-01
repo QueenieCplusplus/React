@@ -136,6 +136,8 @@ React components that are pure functions of their props and do not require any i
 # App Structure
 
     qsreactapp ------| package.json (dependency mgmt)
+    
+               ------ Routes.js (New File Created by developer)
            
                ------| src | ------ App.js (app wrapper)
                
